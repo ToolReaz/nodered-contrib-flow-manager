@@ -4,7 +4,8 @@
   "description": "Nodes that enable you to manage other flows (create, update delete nodes).",
   "node-red": {
     "nodes": {
-      "add": "add/add.js"
+      "add": "add/add.js",
+      "create-flow": "create-flow/create-flow.js"
     }
   },
   "repository": {
