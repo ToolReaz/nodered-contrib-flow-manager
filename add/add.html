@@ -1,0 +1,29 @@
+<script type="text/javascript">
+    RED.nodes.registerType('add', {
+        category: 'Flow manager',
+        color: '#892cdc',
+        defaults: {
+            nodeflow: { value: "" },
+            nodetype: { value: "" }
+        },
+        inputs: 1,
+        outputs: 0,
+        icon: "file.png",
+        label: "add node"
+    });
+</script>
+
+<script type="text/html" data-template-name="add">
+    <div class="form-row">
+        <label for="node-input-nodeflow"><i class="fa fa-tag"></i> Flow</label>
+        <input type="text" id="node-input-nodeflow" placeholder="Flow">
+    </div>
+    <div class="form-row">
+        <label for="node-input-nodetype"><i class="fa fa-tag"></i> Type</label>
+        <input type="text" id="node-input-nodetype" placeholder="Type">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="add">
+    <p>A simple node add a node to the selected flow.</p>
+</script>
