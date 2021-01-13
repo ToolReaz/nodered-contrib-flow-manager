@@ -1,0 +1,22 @@
+{
+  "name": "nodered-contrib-flow-manager",
+  "version": "0.0.1",
+  "description": "Nodes that enable you to manage other flows (create, update delete nodes).",
+  "nodes": {
+    "add": "add/add.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToolReaz/nodered-contrib-flow-manager.git"
+  },
+  "keywords": [
+    "nodered",
+    "flow"
+  ],
+  "author": "ToolReaz",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ToolReaz/nodered-contrib-flow-manager/issues"
+  },
+  "homepage": "https://github.com/ToolReaz/nodered-contrib-flow-manager#readme"
+}
